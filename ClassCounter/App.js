@@ -13,7 +13,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.heading}>
-          Counter App Using Functional Component
+          Counter App Using Class Component
         </Text>
         <View style={styles.topItemContainer}>
           <Text style={styles.textStyle}>{this.state.num}</Text>
